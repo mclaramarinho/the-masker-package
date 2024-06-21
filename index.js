@@ -18,6 +18,4 @@ function applyMask(){
     })
 }
 
-module.exports = {
-    applyMask,
-}
+exports.applyMask = applyMask
