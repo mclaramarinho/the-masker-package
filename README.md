@@ -8,7 +8,7 @@ This is an input masking package, and it was made with javascript. Works on both
 
 ## Get Started
 
-Install my-project with npm[https://www.npmjs.com/package/the-masker]
+Install my-project with [https://www.npmjs.com/package/the-masker]npm
 
 ```bash
   npm install the-masker
