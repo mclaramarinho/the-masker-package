@@ -1,0 +1,27 @@
+{
+  "name": "the-masker",
+  "version": "1.0.0",
+  "description": "Mask inputs easily",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mclaramarinho/the-masker-package.git"
+  },
+  "keywords": [
+    "input",
+    "mask",
+    "input",
+    "html",
+    "js",
+    "vanilla"
+  ],
+  "author": "Clara Marinho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mclaramarinho/the-masker-package/issues"
+  },
+  "homepage": "https://github.com/mclaramarinho/the-masker-package#readme"
+}
