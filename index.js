@@ -1,4 +1,5 @@
 import { maskValue, maskWithRegex } from "./lib/masker.js";
+import { templateMasks } from "./lib/templateMasks.js";
 import { verifyIfRegexOrMask } from "./lib/verifyAttributes.js";
 
 function applyMask(){
@@ -10,7 +11,7 @@ function applyMask(){
 
                 const maskOrRegex = verifyIfRegexOrMask(el);
 
-                if(maskOrRegex !== "mask" && maskOrRegex !== "regex"){
+                if(maskOrRegex !== "mask" && maskOrRegex !== "regex" && maskOrRegex !== "regex-iso-datetime"){
                     console.warn(maskOrRegex);
                     return;
                 }
@@ -20,9 +21,11 @@ function applyMask(){
                 if(maskOrRegex === "mask"){
                     const mask = el.getAttribute("mask");
                     newValue = maskValue(mask, value);
-                }else{
+                }else if(maskOrRegex === "regex"){
                     const regex = el.getAttribute("regex");
                     newValue = maskWithRegex(regex, value);
+                }else if(maskOrRegex === "regex-iso-datetime"){
+                    newValue = maskWithRegex(templateMasks["iso-datetime"], value);
                 }
 
 
