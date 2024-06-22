@@ -1,10 +1,11 @@
-import { maskValue } from "./lib/masker";
+import { maskValue } from "../lib/masker.js";
+
 
 // ------------ CUSTOM MASK -----------------------------------------------------------
 /**
  * Tests the maskValue function with the custom mask attr value being "99/99/9999"
  */
-test("maskValue with date-months", () => {
+test("maskValue with date", () => {
     // Receive only numbers
     expect(maskValue("99/99/9999", "122")).toBe("12/2");
 
@@ -30,6 +31,8 @@ test("maskValue with date-months", () => {
     // Empty input value
     expect(maskValue("99/99/9999", "")).toBe("");
 });
+
+
 
 
 

@@ -12,7 +12,6 @@
     "url": "git+https://github.com/mclaramarinho/the-masker-package.git"
   },
   "keywords": [
-    "input",
     "mask",
     "input",
     "html",
@@ -24,13 +23,5 @@
   "bugs": {
     "url": "https://github.com/mclaramarinho/the-masker-package/issues"
   },
-  "homepage": "https://github.com/mclaramarinho/the-masker-package#readme",
-  "dependencies": {
-    "jest": "^29.7.0"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.24.7",
-    "@babel/preset-env": "^7.24.7",
-    "babel-jest": "^29.7.0"
-  }
+  "homepage": "https://github.com/mclaramarinho/the-masker-package#readme"
 }
