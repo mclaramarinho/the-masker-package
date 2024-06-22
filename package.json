@@ -24,8 +24,5 @@
   "bugs": {
     "url": "https://github.com/mclaramarinho/the-masker-package/issues"
   },
-  "homepage": "https://github.com/mclaramarinho/the-masker-package#readme",
-  "devDependencies": {
-    "polymer-cli": "^1.9.11"
-  }
+  "homepage": "https://github.com/mclaramarinho/the-masker-package#readme"
 }
