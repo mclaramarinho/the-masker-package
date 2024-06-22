@@ -32,5 +32,4 @@ function applyMask(){
         })
     })
 }
-
 exports.applyMask = applyMask;
